@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="downloading_mint">
+    <title>Downloading Linux Mint</title>
+    <taskbody>
+        <context>This section will cover how to download Linux Mint.</context>
+        <steps>
+            <step>
+                <cmd>Open up your preferred web browser (e.g. Chrome, Firefox,  Microsoft Edge) and
+                    navigate to: <xref href="https://www.linuxmint.com/download.php" format="html"
+                        scope="external"/></cmd>
+            </step>
+            <step>
+                <cmd>Select your preferred edition of Linux Mint. We recommend Cinnamon Edition for
+                    new users since it is the most commonly used version. Once you have chosen your
+                    preferred version, click the "Download" button under the version heading to
+                    proceed to the next page.</cmd>
+            </step>
+            <step>
+                <cmd>Under the "Download mirrors" heading, select a mirror closest to your
+                    geographic location to download the Linux Mint disk image file from. Note the
+                    directory where you have saved this file - you will need to know its location
+                    later in the installation process.</cmd>
+            </step>
+        </steps>
+        <result id="result_czl_v5k_5tb">The Linux Mint .ISO file has now been successfully
+            downloaded. </result>
+    </taskbody>
+</task>
