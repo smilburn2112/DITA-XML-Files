@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installing_virtualbox_guest_editions">
+    <title>Installing VirtualBox Guest Editions</title>
+    <shortdesc/>
+    <taskbody>
+        <context>You may find that you are unable to get the virtual machine's display to take up
+            the entirety of your host machine's screen as shown in the example below. To resolve
+            this, we will need to install VirtualBox Guest Editions. This section will walk you
+            through the process. HOW TO USE SHORT DESCRIPTION VS ABOUT THIS TASK<p/></context>
+        <steps>
+            <step>
+                <cmd>Open the ORacle VM VirtualBox application.</cmd>
+            </step>
+            <step>
+                <cmd>Click on Devices at the top of the screen to bring up a dropdown menu.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Click Insert Guest Editions CD Image.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Click the Run button on the popup window that appears.</cmd>
+            </step>
+            <step>
+                <cmd>You will then be prompted to enter login password that was setup in the
+                    previous section. Enter it click and Authenticate.</cmd>
+            </step>
+            <step>
+                <cmd>The installation of the VirtualBox Guest Editions will now begin. A terminal
+                    window will display the installation processes. Allow the installation to run
+                    until it finishes. When the installation is done, you should receive the message
+                    "Press Return to close this window." Press Enter/Return to close the terminal.
+                </cmd>
+            </step>
+            <step>
+                <cmd>The virtual machine must now be shutdown and restarted.</cmd>
+                <substeps>
+                    <substep>
+                        <cmd>Click the Menu button in the lower lefthand corner of your virtual
+                            machine's desktop display.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click the power button.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click shutdown to turn off your virtual machine.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>You should now be back at the Oracle VM VirtualBox Manager main menu.
+                            Ensure that Linux Mint is selected from the list of virtual machines on
+                            the left-hand side, and then the Start button at the top to restart your
+                            machine.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+        <result id="result_xd5_1sf_5tb">VirtualBox Guest Editions is now fully installed. Your
+            virtual machine's display window should now be able to produce a proper full screen
+            display to match your host machine's display.</result>
+    </taskbody>
+</task>

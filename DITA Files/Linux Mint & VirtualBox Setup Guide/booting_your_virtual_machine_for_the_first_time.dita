@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="booting_your_virtual_machine_for_the_first_time">
+    <title>Booting your Virtual Machine for the First Time (Or Booting Your Virtual Machine and
+        Installing Linux Mint? Separate?)</title>
+    <shortdesc></shortdesc>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>From the main screen, click Linux Mint on the left-hand side to ensure you have
+                    the correct operating system selected.  </cmd>
+            </step>
+            <step>
+                <cmd>Click the Start button near the top of the screen. It is indicated by a green
+                    arrow symbol.</cmd>
+            </step>
+            <step>
+                <cmd>A menu will appear prompting you to select a start-up disk. Using the dropdown
+                    menu, choose the Linux Mint .ISO file and click start.</cmd>
+            </step>
+            <step>
+                <cmd>The automatic boot sequence will now begin. Leave everything at the default
+                    settings and allow your virtual machine to finish booting. This may take a
+                    minute depending on your system specifications. </cmd>
+            </step>
+            <step>
+                <cmd>Once the boot sequence has finished, you will be brought to the desktop
+                    environment for Linux Mint. You will see an icon with a disc symbol entitled
+                    "Install Linux Mint." Click it to begin the installation. MAYBE STOP AROUND HERE
+                    AND MAKE THIS A WHOLE NOTHER SECTIOn</cmd>
+            </step>
+            <step>
+                <cmd>On the Welcome screen, select your language of choice and click Continue.</cmd>
+            </step>
+            <step>
+                <cmd>You will be tasked to choose your keyboard layout depending on your language
+                    preferences and region. Click Continue when you are finished.</cmd>
+            </step>
+            <step>
+                <cmd>On the following screen, ensure that the checkbox for installing third-party
+                    software for graphics and Wi-Fi hardware, Flash, MP3, and other media is
+                    selected and click Continue.</cmd>
+            </step>
+            <step>
+                <cmd>On the next WIndow, choose the installation type. Select "Erase disk and
+                    install Linux Mint" and click Install Now. You will be asked if you want to
+                    write the changes to the disks. Click Continue to proceed. </cmd>
+            </step>
+            <step>
+                <cmd>Select your region by clicking on your location on the map.</cmd>
+            </step>
+            <step>
+                <cmd>The following screen contains fields to enter your name, your computer's name,
+                    your username/login ID, and your password. Fill out these fields with your
+                    preferred information and click Continue. </cmd>
+            </step>
+            <step>
+                <cmd>The installation will now begin. Wait for the process to complete.</cmd>
+            </step>
+            <step>
+                <cmd>When the installation has finished, a message will appear indicating its
+                    success. You will be prompted to choose between continuing to test your settings
+                    ,or restarting your virtual machine. Press the Restart Now button to restart
+                    your virtual machine and finish the rest of the process.</cmd>
+            </step>
+            <step>
+                <cmd>A message will appear on screen requesting thaty ou remove the installation
+                    medium and press ENTER. Just press ENTER at this point to proceed.</cmd>
+            </step>
+            <step>
+                <cmd>You will be brought to the login screen and asked to enter your login
+                    information.</cmd>
+            </step>
+            <step>
+                <cmd>A Welcome window will appear. Press the X button in the upper right-hand corner
+                    of the window to close out of it.</cmd>
+            </step>
+        </steps>
+        <result id="result_upz_1dx_ttb">You have now finished installing Linux Mint on your virtual
+            machine. </result>
+    </taskbody>
+</task>
