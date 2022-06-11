@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="downloading_mint">
-    <title>Downloading Linux Mint</title>
+    <title>Downloading the Linux Mint .ISO file</title>
     <taskbody>
         <context>This section will cover how to download Linux Mint.</context>
         <steps>

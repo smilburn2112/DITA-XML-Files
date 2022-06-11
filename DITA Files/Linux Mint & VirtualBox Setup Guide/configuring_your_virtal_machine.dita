@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="configuring_your_virtal_machine">
-    <title>Configuring Your Virtal Machine</title>
+    <title>Configuring Your Virtual Machine</title>
     <taskbody>
         <context>In this section, we will configure the settings of your virtual machine before
             booting it up for the first time.</context>

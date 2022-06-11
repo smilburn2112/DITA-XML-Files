@@ -3,10 +3,11 @@
 <map>
     <title>Linux Mint &amp; Oracle VM VirtualBox Installation Guide for Windows 10</title>
     <topicref href="Overview.dita"/>
-    <topicref href="../Oxygen%20XML%20Author%20Files/downloading_mint.dita"/>
+    <topicref href="downloading_mint.dita"/>
     <topicref href="downloading_installing_oracle_vm_virtualbox.dita"/>
     <topicref href="setting_up_linux_mint_on_oracle_vm_virtualbox.dita"/>
     <topicref href="configuring_your_virtal_machine.dita"/>
     <topicref href="booting_your_virtual_machine_for_the_first_time.dita"/>
+    <topicref href="installing_linux_mint_on_your_virtual_machine.dita"/>
     <topicref href="installing_virtualbox_guest_editions.dita"/>
 </map>

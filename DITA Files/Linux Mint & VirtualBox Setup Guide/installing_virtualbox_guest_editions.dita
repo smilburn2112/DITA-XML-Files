@@ -2,15 +2,15 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="installing_virtualbox_guest_editions">
     <title>Installing VirtualBox Guest Editions</title>
-    <shortdesc/>
     <taskbody>
-        <context>You may find that you are unable to get the virtual machine's display to take up
-            the entirety of your host machine's screen as shown in the example below. To resolve
-            this, we will need to install VirtualBox Guest Editions. This section will walk you
-            through the process. HOW TO USE SHORT DESCRIPTION VS ABOUT THIS TASK<p/></context>
+        <context>You may find that you are unable to get the virtual machine's display window in
+            VirtualBox to take up the entirety of your host machine's screen. As a result, the
+            content in the VirtualBox window may be hard to view due to the low resolution and
+            relative size of the screen. To resolve this, we will need to install VirtualBox Guest
+            Editions. This section will walk you through the process.</context>
         <steps>
             <step>
-                <cmd>Open the ORacle VM VirtualBox application.</cmd>
+                <cmd>Open the Oracle VM VirtualBox application.</cmd>
             </step>
             <step>
                 <cmd>Click on Devices at the top of the screen to bring up a dropdown menu.</cmd>
