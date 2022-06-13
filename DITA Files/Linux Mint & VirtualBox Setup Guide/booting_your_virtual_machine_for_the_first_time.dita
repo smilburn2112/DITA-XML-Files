@@ -4,7 +4,7 @@
     <title>Booting your Virtual Machine for the First Time</title>
     <taskbody>
         <context>This section will guide you through the process of booting your virtual machine for
-            the first time using Oracle VM VirtualBox.<p/></context>
+            the first time using Oracle VM VirtualBox.</context>
         <steps>
             <step>
                 <cmd>From the VirtualBox main screen, click Linux Mint on the left-hand side to
