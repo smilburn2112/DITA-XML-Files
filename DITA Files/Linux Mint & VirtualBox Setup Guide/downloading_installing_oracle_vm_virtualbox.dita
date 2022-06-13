@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="downloading_installing_oracle_vm_virtualbox">
-    <title>Downloading &amp; Installing Oracle VM VirtualBox for Windows</title>
+    <title>Downloading &amp; Installing Oracle VM  VirtualBox  v. 6.1.34 for Windows</title>
     <taskbody>
         <context>This section will cover how to download and install Oracle VM VirtualBox for
             Windows. </context>
@@ -21,9 +21,8 @@
             <step>
                 <cmd>Click Next on the Setup Wizard welcome screen.</cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%201/welcome1.jpeg"
-                            width="320" height="240" id="image_bqf_txs_5tb"/></p>
+                    <p><image href="Images/Section%201/welcome1.jpeg" width="320" height="240"
+                            id="image_bqf_txs_5tb"/></p>
                 </info>
             </step>
             <step>
@@ -32,36 +31,32 @@
                     is set to C:\Program Files\Oracle\VirtualBox as indicated in the image below.
                     Leave the icon tree at the default settings and click Next.</cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%201/vb_setup_2.JPG"
-                            width="320" height="240" id="image_dlg_s2l_5tb"/></p>
+                    <p><image href="Images/Section%201/vb_setup_2.JPG" width="320" height="240"
+                            id="image_dlg_s2l_5tb"/></p>
                 </info>
             </step>
             <step>
                 <cmd>Select your shortcut preferences, leave the "Register file associations" option
                     checked, then click Next.</cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%201/vb_setup_3.JPG"
-                            width="320" height="240" id="image_oqp_ffl_5tb"/></p>
+                    <p><image href="Images/Section%201/vb_setup_3.JPG" width="320" height="240"
+                            id="image_oqp_ffl_5tb"/></p>
                 </info>
             </step>
             <step>
                 <cmd>Read the warning indicating that your network connection will be temporarily
                     interrupted upon proceeding. Click Yes when you are ready to continue. </cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%201/vb_setup_4.JPG"
-                            width="320" height="240" id="image_uls_dgl_5tb"/></p>
+                    <p><image href="Images/Section%201/vb_setup_4.JPG" width="320" height="240"
+                            id="image_uls_dgl_5tb"/></p>
                 </info>
             </step>
             <step>
                 <cmd>Click Install to proceed with the installation. The process may take several
                     minutes to complete.</cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%201/vb_setup_5.JPG"
-                            width="320" height="240" id="image_uv2_4gl_5tb"/></p>
+                    <p><image href="Images/Section%201/vb_setup_5.JPG" width="320" height="240"
+                            id="image_uv2_4gl_5tb"/></p>
                 </info>
             </step>
             <step>
@@ -69,9 +64,8 @@
                     start the Oracle VM VirtualBox application upon exiting the Setup Wizard. Once
                     you have chosen your preference, click Finish to exit the Setup Wizard. </cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%201/vb_setup_6.JPG"
-                            width="320" height="240" id="image_wxb_vgl_5tb"/></p>
+                    <p><image href="Images/Section%201/vb_setup_6.JPG" width="320" height="240"
+                            id="image_wxb_vgl_5tb"/></p>
                 </info>
             </step>
         </steps>

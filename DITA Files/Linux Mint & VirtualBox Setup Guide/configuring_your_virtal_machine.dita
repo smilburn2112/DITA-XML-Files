@@ -7,17 +7,15 @@
             booting it up for the first time.</context>
         <steps>
             <step>
-                <cmd>Click the <image
-                        href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%203/settings_button_1.JPG"
+                <cmd>Click the <image href="Images/Section%203/settings_button_1.JPG"
                         id="image_eyw_31t_5tb"/> icon at the top of the screen to open the Settings
                     menu.</cmd>
             </step>
             <step>
                 <cmd>Select the System menu from the list on the left.</cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%203/config_vm_3.JPG"
-                            width="640" height="480" id="image_vgj_v2t_5tb"/></p>
+                    <p><image href="Images/Section%203/config_vm_1.JPG" width="640" height="480"
+                            id="image_vgj_v2t_5tb"/></p>
                 </info>
             </step>
             <step>
@@ -25,9 +23,7 @@
                     box for "Enable EFI  (special OSes only)" under the Extended Features section
                     towards the bottom of the menu. </cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%203/config_vm_2.JPG"
-                            id="image_ijp_b2t_5tb"/></p>
+                    <p><image href="Images/Section%203/config_vm_2.JPG" id="image_ijp_b2t_5tb"/></p>
                 </info>
             </step>
             <step>
@@ -39,26 +35,24 @@
                 <cmd>Move the processor slider to the right to allocate 2 CPU cores for improved
                     performance. </cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%203/config_vm_3.JPG"
-                            width="640" height="480" id="image_mxr_t2t_5tb"/></p>
+                    <p><image href="Images/Section%203/config_vm_3.JPG" width="640" height="480"
+                            id="image_mxr_t2t_5tb"/></p>
                 </info>
             </step>
             <step>
                 <cmd>Select the Storage menu from the list on the left.</cmd>
             </step>
             <step>
-                <cmd>Select the disk icon labeled "Empty" under Controller: IDE.</cmd>
+                <cmd>Select the <image href="Images/Section%203/disk_button_1.JPG"
+                        id="image_fcr_2tc_wtb"/> icon labeled "Empty" under Controller: IDE.</cmd>
                 <info>
-                    <p><image
-                            href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%203/config_vm_4.JPG"
-                            width="640" height="480" id="image_wlp_gft_5tb"/></p>
+                    <p><image href="Images/Section%203/config_vm_4.JPG" width="640" height="480"
+                            id="image_wlp_gft_5tb"/></p>
                 </info>
             </step>
             <step>
                 <cmd>Insert the Linux Mint disk image downloaded in the previous sections by
-                    clicking the <image
-                        href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%203/disk_button_1.JPG"
+                    clicking the <image href="Images/Section%203/disk_button_1.JPG"
                         id="image_iry_rft_5tb"/> icon under Attributes > Optical Drive on the right
                     hand side of the menu.</cmd>
                 <substeps>

@@ -10,16 +10,14 @@
                 <cmd>Open the VirtualBox application on your host machine.</cmd>
             </step>
             <step>
-                <cmd>From the main menu, click the <image
-                        href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%202/new_button_1.JPG"
+                <cmd>From the main menu, click the <image href="Images/Section%202/new_button_1.JPG"
                         id="image_vsb_yjl_5tb"/> button at the top of the screen.</cmd>
                 <info>
                     <p>
                         <fig id="fig_eg4_sys_5tb">
                             <title>VirtualBox Main Menu</title>
-                            <image
-                                href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%202/new_vm_1.JPG"
-                                width="640" height="480" id="image_fg4_sys_5tb"/>
+                            <image href="Images/Section%202/new_vm_1.JPG" width="640" height="480"
+                                id="image_fg4_sys_5tb"/>
                         </fig>
                     </p>
                 </info>
@@ -48,9 +46,8 @@
                     <substep>
                         <cmd>Click Next.</cmd>
                         <info>
-                            <p><image
-                                    href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%202/new_vm_2.JPG"
-                                    width="320" height="320" id="image_ugm_5ys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_2.JPG" width="320"
+                                    height="320" id="image_ugm_5ys_5tb"/></p>
                         </info>
                     </substep>
                 </substeps>
@@ -64,12 +61,11 @@
                             moving it towards the far end of the green portion of the slider.
                             However, you will want to avoid moving the slider into the orange/red
                             zone in order to prevent performance issues on your host machine. The
-                            actual amount available will be dependent on your host machine's
+                            actual amount available will be dependent on your host machine's system
                             specifications. Click Next when you are done.</cmd>
                         <info>
-                            <p><image
-                                    href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%202/new_vm_3.JPG"
-                                    width="320" height="320" id="image_vdc_wys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_3.JPG" width="320"
+                                    height="320" id="image_vdc_wys_5tb"/></p>
                         </info>
                     </substep>
                 </substeps>
@@ -82,18 +78,16 @@
                         <cmd>Leave the "Create a new virtual hard disk" option selected and click
                             Create.</cmd>
                         <info>
-                            <p><image
-                                    href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%202/new_vm_4.JPG"
-                                    width="320" height="320" id="image_anc_xys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_4.JPG" width="320"
+                                    height="320" id="image_anc_xys_5tb"/></p>
                         </info>
                     </substep>
                     <substep>
                         <cmd>You will be prompted to select a hard disk file type. Leave the default
                             value of VDI (VirtualBox Disk Image) selected and click Next.</cmd>
                         <info>
-                            <p><image
-                                    href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%202/new_vm_6.JPG"
-                                    width="320" height="320" id="image_cbp_yys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_6.JPG" width="320"
+                                    height="320" id="image_cbp_yys_5tb"/></p>
                         </info>
                     </substep>
                     <substep>
@@ -101,9 +95,8 @@
                             preferences. For the purposes of this guide, we recommend selecting the
                             default value of Dynamically Allocated. </cmd>
                         <info>
-                            <p><image
-                                    href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%202/new_vm_7.JPG"
-                                    width="320" height="320" id="image_uzb_zys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_7.JPG" width="320"
+                                    height="320" id="image_uzb_zys_5tb"/></p>
                         </info>
                     </substep>
                     <substep>
@@ -126,9 +119,8 @@
                     <substep>
                         <cmd>Click Create when you are done.</cmd>
                         <info>
-                            <p><image
-                                    href="Figures%20and%20Images/Linux%20Mint%20%26%20VirtualBox%20Setup%20Guide/Section%202/new_vm_8.JPG"
-                                    width="320" height="320" id="image_e1x_zys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_8.JPG" width="320"
+                                    height="320" id="image_e1x_zys_5tb"/></p>
                         </info>
                     </substep>
                 </substeps>
