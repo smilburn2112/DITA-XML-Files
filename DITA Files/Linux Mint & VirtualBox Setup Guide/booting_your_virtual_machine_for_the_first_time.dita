@@ -11,21 +11,39 @@
                     ensure you have the correct operating system selected. </cmd>
             </step>
             <step>
-                <cmd>Click the Start button near the top of the screen. It is indicated by a green
-                    arrow symbol.</cmd>
+                <cmd>Click the <image href="Images/Section%204/start_button_1.JPG"
+                        id="image_mrv_c3d_wtb"/> button near the top of the screen.</cmd>
             </step>
             <step>
                 <cmd>A menu will appear prompting you to select a start-up disk. Using the dropdown
                     menu, choose the Linux Mint .ISO file and click start.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/boot_alt.JPG" width="620" height="440"
+                            id="image_m3p_v3d_wtb"/></p>
+                </info>
             </step>
             <step>
-                <cmd>The automatic boot sequence will now begin. Leave everything at the default
-                    settings and allow your virtual machine to finish booting. This may take a
-                    minute depending on your system specifications. </cmd>
+                <cmd>The automatic boot sequence will now begin. This may take a minute depending on
+                    your system specifications. During the process, you will be presented with the
+                    menu shown in the image below. Ensure that the "Start Linux Mint 20.3 Cinnamon
+                    64-bit" option is selected and push the Enter key to proceed. </cmd>
+                <info>
+                    <p><image href="Images/Section%204/boot_vm_1.JPG" width="620" height="440"
+                            id="image_ntd_wqd_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>Once the boot sequence has finished, you will be brought to the desktop
                     environment for Linux Mint.</cmd>
+                <info>
+                    <p>
+                        <fig id="fig_it4_yqd_wtb">
+                            <title>Linux Mint Desktop</title>
+                            <image href="Images/Section%204/boot_vm_2.JPG" width="620" height="440"
+                                id="image_jt4_yqd_wtb"/>
+                        </fig>
+                    </p>
+                </info>
             </step>
         </steps>
         <result id="result_upz_1dx_ttb">Your virtual machine has now been booted. You are ready to
