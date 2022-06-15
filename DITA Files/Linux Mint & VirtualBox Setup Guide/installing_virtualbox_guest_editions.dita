@@ -13,19 +13,27 @@
                 <cmd>Open the Oracle VM VirtualBox application.</cmd>
             </step>
             <step>
-                <cmd>Click on Devices at the top of the screen to bring up a dropdown menu.</cmd>
-                <substeps>
-                    <substep>
-                        <cmd>Click Insert Guest Editions CD Image.</cmd>
-                    </substep>
-                </substeps>
+                <cmd>Click on Devices at the top of the screen to bring up a dropdown menu, then
+                    click Insert Guest Editions CD Image.</cmd>
+                <info>
+                    <p><image href="Images/Section%205/guest_edition_1.JPG" width="620" height="440"
+                            id="image_uth_gyr_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>Click the Run button on the popup window that appears.</cmd>
+                <info>
+                    <p><image href="Images/Section%205/guest_edition_2.JPG" width="620" height="280"
+                            id="image_ryj_bzr_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>You will then be prompted to enter login password that was setup in the
                     previous section. Enter it click and Authenticate.</cmd>
+                <info>
+                    <p><image href="Images/Section%205/guest_edition_3.JPG" id="image_l2t_4zr_wtb"
+                        /></p>
+                </info>
             </step>
             <step>
                 <cmd>The installation of the VirtualBox Guest Editions will now begin. A terminal
@@ -33,25 +41,31 @@
                     until it finishes. When the installation is done, you should receive the message
                     "Press Return to close this window." Press Enter/Return to close the terminal.
                 </cmd>
+                <info>
+                    <p><image href="Images/Section%205/guest_edition_4.JPG" width="620" height="440"
+                            id="image_npv_rzr_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>The virtual machine must now be shutdown and restarted.</cmd>
                 <substeps>
                     <substep>
-                        <cmd>Click the Menu button in the lower lefthand corner of your virtual
-                            machine's desktop display.</cmd>
+                        <cmd>Click the <image href="Images/Section%205/menu_icon_1.JPG"
+                                id="image_zn4_yzr_wtb"/> button in the lower lefthand corner of your
+                            virtual machine's desktop display.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Click the power button.</cmd>
+                        <cmd>Click the <image href="Images/Section%205/red_power_button_1.JPG"
+                                id="image_y4b_b1s_wtb"/> button.</cmd>
                     </substep>
                     <substep>
-                        <cmd>Click shutdown to turn off your virtual machine.</cmd>
+                        <cmd>Click Shutdown to turn off your virtual machine to return to the Oracle
+                            VM VirtualBox main menu.</cmd>
                     </substep>
                     <substep>
-                        <cmd>You should now be back at the Oracle VM VirtualBox Manager main menu.
-                            Ensure that Linux Mint is selected from the list of virtual machines on
-                            the left-hand side, and then the Start button at the top to restart your
-                            machine.</cmd>
+                        <cmd>Click the <image href="Images/Section%204/start_button_1.JPG"
+                                id="image_wm2_41s_wtb"/> at the top of the screen to reboot your
+                            virtual machine.</cmd>
                     </substep>
                 </substeps>
             </step>
