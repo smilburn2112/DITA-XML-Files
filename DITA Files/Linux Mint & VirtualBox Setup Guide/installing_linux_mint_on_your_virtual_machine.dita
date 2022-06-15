@@ -3,60 +3,95 @@
 <task id="installing_linux_mint_on_your_virtual_machine">
     <title>Installing Linux Mint on your Virtual Machine</title>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
+        <context>In this section, you will be guided through the process of installing Linux Mint on
+            your newly created Virtual Machine. </context>
         <steps>
             <step>
-                <cmd>You will see an icon with a disc symbol entitled "Install Linux Mint." Click it
-                    to begin the installation.</cmd>
+                <cmd>On your virtual machine's desktop, double click the icon labeled "Install Linux
+                    Mint" to begin the installation.</cmd>
             </step>
             <step>
                 <cmd>On the Welcome screen, select your language of choice and click Continue.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_1.JPG" width="620"
+                            height="440" id="image_lcq_yzq_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>You will be tasked to choose your keyboard layout depending on your language
                     preferences and region. Click Continue when you are finished.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_2.JPG" width="620"
+                            height="440" id="image_r3d_g1r_wtb"/></p>
+                </info>
             </step>
             <step>
-                <cmd>On the following screen, ensure that the checkbox for installing third-party
-                    software for graphics and Wi-Fi hardware, Flash, MP3, and other media is
-                    selected and click Continue.</cmd>
+                <cmd>On the following screen, ensure that the checkbox for installing multimedia
+                    codecs is selected.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_3.JPG" width="620"
+                            height="440" id="image_ul5_m1r_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>On the next WIndow, choose the installation type. Select "Erase disk and
                     install Linux Mint" and click Install Now. You will be asked if you want to
                     write the changes to the disks. Click Continue to proceed.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_4.JPG" width="620"
+                            height="440" id="image_zy4_y1r_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>Select your region by clicking on your location on the map or entering the name
-                    of your city into text field.</cmd>
+                    of your city into text field. Click Continue when you are ready to
+                    proceed.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_5.JPG" width="620"
+                            height="440" id="image_imk_1br_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>The following screen contains fields to enter your name, your computer's name,
-                    your username/login ID, and your password. Fill out these fields with your
+                    your username/login ID, and your password. Fill in these fields with your
                     preferred information and click Continue.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_6.JPG" width="620"
+                            height="440" id="image_ks5_fdr_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>The installation will now begin. Wait for the process to complete.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_7.JPG" width="620"
+                            height="440" id="image_irv_jdr_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>When the installation has finished, a message will appear indicating its
-                    success. You will be prompted to choose between continuing to test your settings
-                    ,or restarting your virtual machine. Press the Restart Now button to restart
-                    your virtual machine and finish the rest of the process.</cmd>
+                    success. You will be prompted to choose between continuing to test your
+                    settings, or restarting your virtual machine. Press the Restart Now button to
+                    restart your virtual machine and finish the rest of the process.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_8.JPG" width="620"
+                            height="220" id="image_wpb_c2r_wtb"/></p>
+                </info>
             </step>
             <step>
-                <cmd>A message will appear on screen requesting thaty ou remove the installation
-                    medium and press ENTER. Just press ENTER at this point to proceed.</cmd>
+                <cmd>A message will appear on screen requesting that you remove the installation
+                    medium and press ENTER. Press ENTER to proceed.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux_mint_9.JPG" width="557"
+                            height="255" id="image_vm1_m2r_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>You will be brought to the login screen and asked to enter your login
-                    information. Enter your password to proceed.</cmd>
-            </step>
-            <step>
-                <cmd>A Welcome window will appear. Press the X button in the upper right-hand corner
-                    of the window to close out of it.</cmd>
+                    information. Enter your password to login.</cmd>
+                <info>
+                    <p><image href="Images/Section%204/install_linux__mint_10.JPG" width="386"
+                            height="181" id="image_lnr_w2r_wtb"/></p>
+                </info>
             </step>
         </steps>
         <result id="result_umw_tjh_vtb">You have now finished installing Linux Mint on your virtual

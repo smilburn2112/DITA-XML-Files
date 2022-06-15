@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="booting_your_virtual_machine_for_the_first_time">
-    <title>Booting your Virtual Machine for the First Time</title>
+    <title>Booting Your Virtual Machine for the First Time</title>
     <taskbody>
         <context>This section will guide you through the process of booting your virtual machine for
             the first time using Oracle VM VirtualBox.</context>
