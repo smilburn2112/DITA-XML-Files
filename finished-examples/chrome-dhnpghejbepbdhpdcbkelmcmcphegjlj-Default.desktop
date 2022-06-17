@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Linux Mint & Oracle VM VirtualBox v. 6.1.34 Installation Guide for Windows 10
+Exec=/opt/google/chrome/google-chrome --profile-directory=Default --app-id=dhnpghejbepbdhpdcbkelmcmcphegjlj
+Icon=chrome-dhnpghejbepbdhpdcbkelmcmcphegjlj-Default
+StartupWMClass=crx_dhnpghejbepbdhpdcbkelmcmcphegjlj
