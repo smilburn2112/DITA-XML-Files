@@ -1,0 +1,459 @@
+<!DOCTYPE html><html xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/linux_mint_7_virtualbox_installation_guide.ditamap" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta charset="UTF-8"/><meta name="copyright" content="(C) Copyright 2022"/><meta name="DC.rights.owner" content="(C) Copyright 2022"/>
+<link rel="stylesheet" type="text/css" href="file:/home/stephen/Oxygen%20XML%20Author%2024/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"/>
+<link rel="stylesheet" type="text/css" href="file:/home/stephen/Oxygen%20XML%20Author%2024/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css"/>
+<link rel="stylesheet" type="text/css" href="file:/home/stephen/Oxygen%20XML%20Author%2024/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"/>
+<link rel="stylesheet" type="text/css" href="file:/home/stephen/Oxygen%20XML%20Author%2024/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css"/>
+<link rel="stylesheet" type="text/css" href="file:/home/stephen/Oxygen%20XML%20Author%2024/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css"/>
+<meta name="generator" content="DITA-OT"/><meta name="DC.type" content="map"/><meta name="DC.format" content="HTML5"/><meta name="DC.language" content="en"/><title>Linux Mint &amp; Oracle VM VirtualBox v. 6.1.34 Installation Guide for Windows 10</title></head><body class="wh_topic_page"><div class="wh_content_area"><div class="wh_topic_body"><div class="wh_topic_content"><div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" cascade="merge" class="- map/map map" ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" specializations="@props/deliveryTarget" xml:lang="en" lang="en"><div class="- front-page/front-page front-page"><div class="- front-page/front-page-title front-page-title"><div class="- topic/title title">Linux Mint &amp; Oracle VM VirtualBox v. 6.1.34 Installation Guide for Windows 10</div></div></div><div class="- toc/toc toc"><div empty="true" class="- toc/title title"></div>
+    <div class="- topic/title title">Linux Mint &amp; Oracle VM VirtualBox v. 6.1.34 Installation Guide for Windows 10</div>
+    <div is-chapter="true" href="#unique_1" type="concept" class="- map/topicref topicref"><div data-topic-id="concept_wxh_qsz_rtb" class="- map/topicmeta topicmeta"><div appid="concept_wxh_qsz_rtb" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_1" class="- topic/navtitle navtitle">Overview: Linux Mint and Oracle VM VirtualBox v. 6.1.34</div></div></div>
+    <div is-chapter="true" href="#unique_2" type="task" class="- map/topicref topicref"><div data-topic-id="downloading_mint" class="- map/topicmeta topicmeta"><div appid="downloading_mint" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_2" class="- topic/navtitle navtitle">Downloading the Linux Mint .ISO file</div></div></div>
+    <div is-chapter="true" href="#unique_3" type="task" class="- map/topicref topicref"><div data-topic-id="downloading_installing_oracle_vm_virtualbox" class="- map/topicmeta topicmeta"><div appid="downloading_installing_oracle_vm_virtualbox" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_3" class="- topic/navtitle navtitle">Downloading &amp; Installing Oracle VM  VirtualBox  v. 6.1.34 for Windows</div></div></div>
+    <div is-chapter="true" href="#unique_4" type="task" class="- map/topicref topicref"><div data-topic-id="setting_up_linux_mint_on_oracle_vm_virtualbox" class="- map/topicmeta topicmeta"><div appid="setting_up_linux_mint_on_oracle_vm_virtualbox" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_4" class="- topic/navtitle navtitle">Creating a New Virtual Machine with VirtualBox</div></div></div>
+    <div is-chapter="true" href="#unique_5" type="task" class="- map/topicref topicref"><div data-topic-id="configuring_your_virtal_machine" class="- map/topicmeta topicmeta"><div appid="configuring_your_virtal_machine" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_5" class="- topic/navtitle navtitle">Configuring Your Virtual Machine</div></div></div>
+    <div is-chapter="true" href="#unique_6" type="task" class="- map/topicref topicref"><div data-topic-id="booting_your_virtual_machine_for_the_first_time" class="- map/topicmeta topicmeta"><div appid="booting_your_virtual_machine_for_the_first_time" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_6" class="- topic/navtitle navtitle">Booting Your Virtual Machine for the First Time</div></div></div>
+    <div is-chapter="true" href="#unique_7" type="task" class="- map/topicref topicref"><div data-topic-id="installing_linux_mint_on_your_virtual_machine" class="- map/topicmeta topicmeta"><div appid="installing_linux_mint_on_your_virtual_machine" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_7" class="- topic/navtitle navtitle">Installing Linux Mint on your Virtual Machine</div></div></div>
+    <div is-chapter="true" href="#unique_8" type="task" class="- map/topicref topicref"><div data-topic-id="installing_virtualbox_guest_editions" class="- map/topicmeta topicmeta"><div appid="installing_virtualbox_guest_editions" oxy-source="topic" class="- topic/resourceid resourceid"></div><div href="#unique_8" class="- topic/navtitle navtitle">Installing VirtualBox Guest Editions</div></div></div>
+</div><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic concept/concept topic concept nested0" aria-labelledby="ariaid-title1" break-before="true" is-chapter="true" id="unique_1" topicrefclass="- map/topicref " nd:nd-id="concept_wxh_qsz_rtb" oid="concept_wxh_qsz_rtb" specializations="@props/deliveryTarget">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Overview: Linux Mint and Oracle VM VirtualBox v. 6.1.34</span></h1>
+    <div class="- topic/body concept/conbody body conbody">
+        <p class="- topic/p p">Linux Mint is a free of cost Ubuntu based operating system that comes fully equipped with
+            out of the box capabilities for multimedia support, gaming, graphic design, web
+            browsing, text editing, and more. It is a widely used alternative to Microsoft Windows
+            and Mac OS X. Linux Mint provides a safe and reliable environment for all of your OS
+            needs with minimal maintenance requirements.  </p>
+        <p class="- topic/p p">A virtual machine is a platform that runs an emulated computer that utilizes the hardware
+            and resources of your main computer in a virtual environment. One of the more popular
+            virtualization platforms today is Oracle VM VirtualBox, a type-2 hypervisor developed by
+            Oracle Corporation.  It allows users to run multiple operating systems like Microsoft
+            Windows, Mac OS X, and various Linux distributions in a virtualized environment using a
+            single physical machine. The benefits of virtualization are immense. Segmenting a
+            physical device into multiple virtual machines can lead to the faster provisioning of
+            resources, reduced IT costs, improved security, and greater resiliency in recovery
+            situations. </p>
+        <p class="- topic/p p">This guide will assist you with downloading and installing all of the necessary
+            components to run Linux Mint in a virtualized environment using Oracle VM VirtualBox v.
+            6.1.34 for Windows. It is meant to be a supplement or alternative for those who prefer
+            text-based instructions to the many video guides available for this setup process on the
+            wider web.</p>
+        <p class="- topic/p p">Please follow the steps in order and refer to the screenshots in each section as needed. </p>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title2" break-before="true" is-chapter="true" id="unique_2" topicrefclass="- map/topicref " nd:nd-id="downloading_mint" oid="downloading_mint" specializations="@props/deliveryTarget">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title2"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Downloading the Linux Mint .ISO file</span></h1>
+    <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context">This section will cover how to download Linux Mint.</section>
+        <section class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Open up your preferred web browser (e.g. Chrome, Firefox, Microsoft Edge) and
+                    navigate to: <a class="- topic/xref xref" format="html" href="https://www.linuxmint.com/download.php" scope="external" target="_blank" rel="external noopener">https://www.linuxmint.com/download.php</a></span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="480" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/DL%20Instructions/dl_mint_1.jpg" id="unique_2_Connect_42_image_qty_vjz_wtb" nd:nd-id="image_qty_vjz_wtb" placement="inline" width="640" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/DL%20Instructions/dl_mint_1.jpg"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Select your preferred edition of Linux Mint. We recommend Cinnamon Edition for
+                    new users since it is the most commonly used version. Once you have chosen your
+                    preferred version, click the "Download" button under the version heading to
+                    proceed to the next page.</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Under the "Download mirrors" heading, select a mirror closest to your
+                    geographic location to download the Linux Mint disk image file from. <strong class="+ topic/ph hi-d/b ph b">Note the
+                        directory where you have saved this file - you will need to know its
+                        location later in the installation process.</strong></span>
+            </li></ol></section>
+        <section class="- topic/section task/result section result" id="unique_2_Connect_42_result_czl_v5k_5tb" nd:nd-id="result_czl_v5k_5tb">The Linux Mint .ISO file has now been successfully
+            downloaded. Please proceed to the next section.</section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title3" break-before="true" is-chapter="true" id="unique_3" topicrefclass="- map/topicref " nd:nd-id="downloading_installing_oracle_vm_virtualbox" oid="downloading_installing_oracle_vm_virtualbox" specializations="@props/deliveryTarget">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title3"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Downloading &amp; Installing Oracle VM  VirtualBox  v. 6.1.34 for Windows</span></h1>
+    <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context">This section will cover how to download and install Oracle VM VirtualBox for
+            Windows. </section>
+        <section class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Open up your preferred web browser (e.g. Chrome, Firefox,  Microsoft Edge) and
+                    navigate to: <a class="- topic/xref xref" format="html" href="https://www.virtualbox.org/wiki/Downloads" scope="external" target="_blank" rel="external noopener">https://www.virtualbox.org/wiki/Downloads</a></span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Select "Windows hosts" under the "VirtualBox 6.1.2 platform packages" heading
+                    to begin downloading the installer (VirtualBox-6.1.34-150636-Win.exe).</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Open VirtualBox-6.1.34-150636-Win.exe to start the installation..</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Click Next on the Setup Wizard welcome screen.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="387" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/welcome1.jpeg" id="unique_3_Connect_42_image_bqf_txs_5tb" nd:nd-id="image_bqf_txs_5tb" placement="inline" width="495" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/welcome1.jpeg"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Select the location on your host machine that this application will be
+                    installed to by clicking the Browse button. In this case, the default location
+                    is set to C:\Program Files\Oracle\VirtualBox as indicated in the image below.
+                    Leave the icon tree at the default settings and click Next.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="387" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_2.JPG" id="unique_3_Connect_42_image_dlg_s2l_5tb" nd:nd-id="image_dlg_s2l_5tb" placement="inline" width="495" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_2.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Select your shortcut preferences, leave the "Register file associations" option
+                    checked, then click Next.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="387" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_3.JPG" id="unique_3_Connect_42_image_oqp_ffl_5tb" nd:nd-id="image_oqp_ffl_5tb" placement="inline" width="495" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_3.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Read the warning indicating that your network connection will be temporarily
+                    interrupted upon proceeding. Click Yes when you are ready to continue. </span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="387" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_4.JPG" id="unique_3_Connect_42_image_uls_dgl_5tb" nd:nd-id="image_uls_dgl_5tb" placement="inline" width="495" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_4.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Click Install to proceed with the installation. The process may take several
+                    minutes to complete.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="387" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_5.JPG" id="unique_3_Connect_42_image_uv2_4gl_5tb" nd:nd-id="image_uv2_4gl_5tb" placement="inline" width="495" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_5.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">When the installation has finished, you can select whether or not you'd like
+                    start the Oracle VM VirtualBox application upon exiting the Setup Wizard. Once
+                    you have chosen your preference, click Finish to exit the Setup Wizard. </span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="387" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_6.JPG" id="unique_3_Connect_42_image_wxb_vgl_5tb" nd:nd-id="image_wxb_vgl_5tb" placement="inline" width="495" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%201/vb_setup_6.JPG"/></p>
+                </div>
+            </li></ol></section>
+        <section class="- topic/section task/result section result" id="unique_3_Connect_42_result_ixs_pvk_5tb" nd:nd-id="result_ixs_pvk_5tb">Oracle VM VirtualBox should now be sucessfully installed.
+            You are ready to proceed to the next step. </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title4" break-before="true" is-chapter="true" id="unique_4" topicrefclass="- map/topicref " nd:nd-id="setting_up_linux_mint_on_oracle_vm_virtualbox" oid="setting_up_linux_mint_on_oracle_vm_virtualbox" specializations="@props/deliveryTarget">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title4"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Creating a New Virtual Machine with VirtualBox</span></h1>
+    <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context">This task will guide you through the process of setting up a new virtual machine
+            using VirtualBox. </section>
+        <section class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Open the VirtualBox application on your host machine.</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">From the main menu, click the <img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_button_1.JPG" id="unique_4_Connect_42_image_vsb_yjl_5tb" nd:nd-id="image_vsb_yjl_5tb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_button_1.JPG"/> button at the top of the screen.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <div class="- topic/p p">
+                        <figure class="- topic/fig fig fignone" id="unique_4_Connect_42_fig_eg4_sys_5tb" nd:nd-id="fig_eg4_sys_5tb"><figcaption class="- topic/title title figcap"><span class="figtitleprefix fig--title-label">Figure<span class="fig--title-label-number"> 1</span><span class="fig--title-label-punctuation">. </span></span><span class="fig--title">VirtualBox Main Menu</span></figcaption><img class="- topic/image image" height="480" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_1.JPG" id="unique_4_Connect_42_image_fg4_sys_5tb" nd:nd-id="image_fg4_sys_5tb" placement="inline" width="640" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_1.JPG"/></figure>
+                    </div>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">You will be prompted to select a name, destination folder, operating system
+                    type, associated version for the new virtual machine.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Enter Linux Mint in the Name field.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">The Machine Folder field can be left at its default value. If
+                            preferred, you can select an alternative directory on your local machine
+                            as the destination folder. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">By entering Linux Mint in the Name field, the Type field will already
+                            be populated with Linux as the default value. If it is not, select Linux
+                            from the drop-down list. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd"> For the Version field, select Ubuntu (64-bit) from the drop-down
+                            list.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Click Next.</span>
+                        <div class="- topic/itemgroup task/info itemgroup info">
+                            <p class="- topic/p p"><img class="- topic/image image" height="390" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_2.JPG" id="unique_4_Connect_42_image_ugm_5ys_5tb" nd:nd-id="image_ugm_5ys_5tb" placement="inline" width="412" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_2.JPG"/></p>
+                        </div>
+                    </li>
+                </ol>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">You will now be asked to select the amount of memory (RAM) to be allocated to
+                    the vritual machine.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Select at least 2 gigabytes of memory using the slider. I recommend
+                            moving it towards the far end of the green portion of the slider.
+                            However, you will want to avoid moving the slider into the orange/red
+                            zone in order to prevent performance issues on your host machine. The
+                            actual amount available will be dependent on your host machine's system
+                            specifications. Click Next when you are done.</span>
+                        <div class="- topic/itemgroup task/info itemgroup info">
+                            <p class="- topic/p p"><img class="- topic/image image" height="390" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_3.JPG" id="unique_4_Connect_42_image_vdc_wys_5tb" nd:nd-id="image_vdc_wys_5tb" placement="inline" width="412" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_3.JPG"/></p>
+                        </div>
+                    </li>
+                </ol>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">On the following screen, you will be asked to create and configure the new
+                    virtual hard disk file.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Leave the "Create a new virtual hard disk" option selected and click
+                            Create.</span>
+                        <div class="- topic/itemgroup task/info itemgroup info">
+                            <p class="- topic/p p"><img class="- topic/image image" height="390" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_4.JPG" id="unique_4_Connect_42_image_anc_xys_5tb" nd:nd-id="image_anc_xys_5tb" placement="inline" width="412" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_4.JPG"/></p>
+                        </div>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">You will be prompted to select a hard disk file type. Leave the default
+                            value of VDI (VirtualBox Disk Image) selected and click Next.</span>
+                        <div class="- topic/itemgroup task/info itemgroup info">
+                            <p class="- topic/p p"><img class="- topic/image image" height="390" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_6.JPG" id="unique_4_Connect_42_image_cbp_yys_5tb" nd:nd-id="image_cbp_yys_5tb" placement="inline" width="412" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_6.JPG"/></p>
+                        </div>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd"> Read the descriptions and make your selection based on your
+                            preferences. For the purposes of this guide, we recommend selecting the
+                            default value of Dynamically Allocated. </span>
+                        <div class="- topic/itemgroup task/info itemgroup info">
+                            <p class="- topic/p p"><img class="- topic/image image" height="390" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_7.JPG" id="unique_4_Connect_42_image_uzb_zys_5tb" nd:nd-id="image_uzb_zys_5tb" placement="inline" width="412" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_7.JPG"/></p>
+                        </div>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Click Next when you are done.</span>
+                    </li>
+                </ol>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Choose the directory on your PC where the virtual hard disk file will be stored
+                    along with the size of the virtual hard disk. </span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Click the folder icon to select a location.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Using the slider,  allocate at least 32 gigabytes of disk space to
+                            ensure that you will have enough available to run the operating system
+                            and store your data. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep substepexpand">
+                        <span class="- topic/ph task/cmd ph cmd">Click Create when you are done.</span>
+                        <div class="- topic/itemgroup task/info itemgroup info">
+                            <p class="- topic/p p"><img class="- topic/image image" height="390" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_8.JPG" id="unique_4_Connect_42_image_msh_3ly_wtb" nd:nd-id="image_msh_3ly_wtb" placement="inline" width="412" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%202/new_vm_8.JPG"/></p>
+                        </div>
+                    </li>
+                </ol>
+            </li></ol></section>
+        <section class="- topic/section task/result section result" id="unique_4_Connect_42_result_ot1_gll_stb" nd:nd-id="result_ot1_gll_stb">Your new virtual hard disk has been created and you are now
+            ready to proceed  to the next section of the guide. </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title5" break-before="true" is-chapter="true" id="unique_5" topicrefclass="- map/topicref " nd:nd-id="configuring_your_virtal_machine" oid="configuring_your_virtal_machine" specializations="@props/deliveryTarget">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title5"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Configuring Your Virtual Machine</span></h1>
+    <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context">In this section, we will configure the settings of your virtual machine before
+            booting it up for the first time.</section>
+        <section class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Click the <img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/settings_button_1.JPG" id="unique_5_Connect_42_image_eyw_31t_5tb" nd:nd-id="image_eyw_31t_5tb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/settings_button_1.JPG"/> icon at the top of the screen to open the Settings
+                    menu.</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Select the System menu from the list on the left.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="480" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/config_vm_1.JPG" id="unique_5_Connect_42_image_vgj_v2t_5tb" nd:nd-id="image_vgj_v2t_5tb" placement="inline" width="640" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/config_vm_1.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">This will open directly to the Motherboard tab in the System menu. Check the
+                    box for "Enable EFI  (special OSes only)" under the Extended Features section
+                    towards the bottom of the menu. </span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/config_vm_2.JPG" id="unique_5_Connect_42_image_ijp_b2t_5tb" nd:nd-id="image_ijp_b2t_5tb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/config_vm_2.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <div class="- topic/note note note note_note" id="unique_5_Connect_42_note_qp2_hdt_5tb" nd:nd-id="note_qp2_hdt_5tb"><span class="note__title">Note:</span>  Most newer computers come with an EFI BIOS, this will
+                    allow us to emulate running a new computer</div>
+                <span class="- topic/ph task/cmd ph cmd">Click the Processor tab on the System menu.</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Move the processor slider to the right to allocate 2 CPU cores for improved
+                    performance. </span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="480" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/config_vm_3.JPG" id="unique_5_Connect_42_image_mxr_t2t_5tb" nd:nd-id="image_mxr_t2t_5tb" placement="inline" width="640" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/config_vm_3.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Select the Storage menu from the list on the left.</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Select the <img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/disk_button_1.JPG" id="unique_5_Connect_42_image_fcr_2tc_wtb" nd:nd-id="image_fcr_2tc_wtb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/disk_button_1.JPG"/> icon labeled "Empty" under Controller: IDE.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="480" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/config_vm_4.JPG" id="unique_5_Connect_42_image_wlp_gft_5tb" nd:nd-id="image_wlp_gft_5tb" placement="inline" width="640" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/config_vm_4.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Insert the Linux Mint disk image downloaded in the previous sections by
+                    clicking the <img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/disk_button_1.JPG" id="unique_5_Connect_42_image_iry_rft_5tb" nd:nd-id="image_iry_rft_5tb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%203/disk_button_1.JPG"/> icon under Attributes &gt; Optical Drive on the right
+                    hand side of the menu.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Select "Choose a disk file" from the dropdown menu and specify the
+                            location where you saved the Linux Mint disk image file. </span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Click Open when you have specified the location</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Click OK back on the Storage tab to close Settings and return to the
+                            main screen.</span>
+                    </li>
+                </ol>
+            </li></ol></section>
+        <section class="- topic/section task/result section result" id="unique_5_Connect_42_result_iyz_hrl_stb" nd:nd-id="result_iyz_hrl_stb">You are now ready to boot your virtual machine. </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title6" break-before="true" is-chapter="true" id="unique_6" topicrefclass="- map/topicref " nd:nd-id="booting_your_virtual_machine_for_the_first_time" oid="booting_your_virtual_machine_for_the_first_time" specializations="@props/deliveryTarget">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title6"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Booting Your Virtual Machine for the First Time</span></h1>
+    <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context">This section will guide you through the process of booting your virtual machine for
+            the first time using Oracle VM VirtualBox.</section>
+        <section class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">From the VirtualBox main screen, click Linux Mint on the left-hand side to
+                    ensure you have the correct operating system selected. </span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Click the <img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/start_button_1.JPG" id="unique_6_Connect_42_image_mrv_c3d_wtb" nd:nd-id="image_mrv_c3d_wtb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/start_button_1.JPG"/> button near the top of the screen.</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">A menu will appear prompting you to select a start-up disk. Using the dropdown
+                    menu, choose the Linux Mint .ISO file and click start.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/boot_alt.JPG" id="unique_6_Connect_42_image_m3p_v3d_wtb" nd:nd-id="image_m3p_v3d_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/boot_alt.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">The automatic boot sequence will now begin. This may take a minute depending on
+                    your system specifications. During the process, you will be presented with the
+                    menu shown in the image below. Ensure that the "Start Linux Mint 20.3 Cinnamon
+                    64-bit" option is selected and push the Enter key to proceed. </span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/boot_vm_1.JPG" id="unique_6_Connect_42_image_ntd_wqd_wtb" nd:nd-id="image_ntd_wqd_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/boot_vm_1.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Once the boot sequence has finished, you will be brought to the desktop
+                    environment for Linux Mint.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <div class="- topic/p p">
+                        <figure class="- topic/fig fig fignone" id="unique_6_Connect_42_fig_it4_yqd_wtb" nd:nd-id="fig_it4_yqd_wtb"><figcaption class="- topic/title title figcap"><span class="figtitleprefix fig--title-label">Figure<span class="fig--title-label-number"> 2</span><span class="fig--title-label-punctuation">. </span></span><span class="fig--title">Linux Mint Desktop</span></figcaption><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/boot_vm_2.JPG" id="unique_6_Connect_42_image_jt4_yqd_wtb" nd:nd-id="image_jt4_yqd_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/boot_vm_2.JPG"/></figure>
+                    </div>
+                </div>
+            </li></ol></section>
+        <section class="- topic/section task/result section result" id="unique_6_Connect_42_result_upz_1dx_ttb" nd:nd-id="result_upz_1dx_ttb">Your virtual machine has now been booted. You are ready to
+            install Linux Mint as outlined in the next section.  </section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title7" break-before="true" is-chapter="true" id="unique_7" topicrefclass="- map/topicref " nd:nd-id="installing_linux_mint_on_your_virtual_machine" oid="installing_linux_mint_on_your_virtual_machine" specializations="@props/deliveryTarget">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title7"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Installing Linux Mint on your Virtual Machine</span></h1>
+    <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context">In this section, you will be guided through the process of installing Linux Mint on
+            your newly created Virtual Machine. </section>
+        <section class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">On your virtual machine's desktop, double click the icon labeled "Install Linux
+                    Mint" to begin the installation.</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">On the Welcome screen, select your language of choice and click Continue.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_1.JPG" id="unique_7_Connect_42_image_lcq_yzq_wtb" nd:nd-id="image_lcq_yzq_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_1.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">You will be tasked to choose your keyboard layout depending on your language
+                    preferences and region. Click Continue when you are finished.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_2.JPG" id="unique_7_Connect_42_image_r3d_g1r_wtb" nd:nd-id="image_r3d_g1r_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_2.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">On the following screen, ensure that the checkbox for installing multimedia
+                    codecs is selected.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_3.JPG" id="unique_7_Connect_42_image_ul5_m1r_wtb" nd:nd-id="image_ul5_m1r_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_3.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">On the next WIndow, choose the installation type. Select "Erase disk and
+                    install Linux Mint" and click Install Now. You will be asked if you want to
+                    write the changes to the disks. Click Continue to proceed.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_4.JPG" id="unique_7_Connect_42_image_zy4_y1r_wtb" nd:nd-id="image_zy4_y1r_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_4.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Select your region by clicking on your location on the map or entering the name
+                    of your city into text field. Click Continue when you are ready to
+                    proceed.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_5.JPG" id="unique_7_Connect_42_image_imk_1br_wtb" nd:nd-id="image_imk_1br_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_5.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">The following screen contains fields to enter your name, your computer's name,
+                    your username/login ID, and your password. Fill in these fields with your
+                    preferred information and click Continue.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_6.JPG" id="unique_7_Connect_42_image_ks5_fdr_wtb" nd:nd-id="image_ks5_fdr_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_6.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">The installation will now begin. Wait for the process to complete.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_7.JPG" id="unique_7_Connect_42_image_irv_jdr_wtb" nd:nd-id="image_irv_jdr_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_7.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">When the installation has finished, a message will appear indicating its
+                    success. You will be prompted to choose between continuing to test your
+                    settings, or restarting your virtual machine. Press the Restart Now button to
+                    restart your virtual machine and finish the rest of the process.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="220" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_8.JPG" id="unique_7_Connect_42_image_wpb_c2r_wtb" nd:nd-id="image_wpb_c2r_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_8.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">A message will appear on screen requesting that you remove the installation
+                    medium and press ENTER. Press ENTER to proceed.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="255" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_9.JPG" id="unique_7_Connect_42_image_vm1_m2r_wtb" nd:nd-id="image_vm1_m2r_wtb" placement="inline" width="557" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux_mint_9.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">You will be brought to the login screen and asked to enter your login
+                    information. Enter your password to login.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="181" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux__mint_10.JPG" id="unique_7_Connect_42_image_lnr_w2r_wtb" nd:nd-id="image_lnr_w2r_wtb" placement="inline" width="386" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/install_linux__mint_10.JPG"/></p>
+                </div>
+            </li></ol></section>
+        <section class="- topic/section task/result section result" id="unique_7_Connect_42_result_umw_tjh_vtb" nd:nd-id="result_umw_tjh_vtb">You have now finished installing Linux Mint on your virtual
+            machine.</section>
+    </div>
+</article><article xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" class="- topic/topic task/task topic task nested0" aria-labelledby="ariaid-title8" break-before="true" is-chapter="true" id="unique_8" topicrefclass="- map/topicref " nd:nd-id="installing_virtualbox_guest_editions" oid="installing_virtualbox_guest_editions" specializations="@props/deliveryTarget">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title8"><span class="- topic/ph topic/title-wrapper ph title-wrapper">Installing VirtualBox Guest Editions</span></h1>
+    <div class="- topic/body task/taskbody body taskbody">
+        <section class="- topic/section task/context section context">You may find that you are unable to get the virtual machine's display window in
+            VirtualBox to take up the entirety of your host machine's screen. As a result, the
+            content in the VirtualBox window may be hard to view due to the low resolution and
+            relative size of the screen. To resolve this, we will need to install VirtualBox Guest
+            Editions. This section will walk you through the process.</section>
+        <section class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Open the Oracle VM VirtualBox application.</span>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Click on Devices at the top of the screen to bring up a dropdown menu, then
+                    click Insert Guest Editions CD Image.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/guest_edition_1.JPG" id="unique_8_Connect_42_image_uth_gyr_wtb" nd:nd-id="image_uth_gyr_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/guest_edition_1.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">Click the Run button on the popup window that appears.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="280" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/guest_edition_2.JPG" id="unique_8_Connect_42_image_ryj_bzr_wtb" nd:nd-id="image_ryj_bzr_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/guest_edition_2.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">You will then be prompted to enter login password that was setup in the
+                    previous section. Enter it click and Authenticate.</span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/guest_edition_3.JPG" id="unique_8_Connect_42_image_l2t_4zr_wtb" nd:nd-id="image_l2t_4zr_wtb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/guest_edition_3.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">The installation of the VirtualBox Guest Editions will now begin. A terminal
+                    window will display the installation processes. Allow the installation to run
+                    until it finishes. When the installation is done, you should receive the message
+                    "Press Return to close this window." Press Enter/Return to close the terminal.
+                </span>
+                <div class="- topic/itemgroup task/info itemgroup info">
+                    <p class="- topic/p p"><img class="- topic/image image" height="440" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/guest_edition_4.JPG" id="unique_8_Connect_42_image_npv_rzr_wtb" nd:nd-id="image_npv_rzr_wtb" placement="inline" width="620" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/guest_edition_4.JPG"/></p>
+                </div>
+            </li><li class="- topic/li task/step li step">
+                <span class="- topic/ph task/cmd ph cmd">The virtual machine must now be shutdown and restarted.</span>
+                <ol type="a" class="- topic/ol task/substeps ol substeps">
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Click the <img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/menu_icon_1.JPG" id="unique_8_Connect_42_image_zn4_yzr_wtb" nd:nd-id="image_zn4_yzr_wtb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/menu_icon_1.JPG"/> button in the lower lefthand corner of your
+                            virtual machine's desktop display.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Click the <img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/red_power_button_1.JPG" id="unique_8_Connect_42_image_y4b_b1s_wtb" nd:nd-id="image_y4b_b1s_wtb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%205/red_power_button_1.JPG"/> button.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Click Shutdown to turn off your virtual machine to return to the Oracle
+                            VM VirtualBox main menu.</span>
+                    </li>
+                    <li class="- topic/li task/substep li substep">
+                        <span class="- topic/ph task/cmd ph cmd">Click the <img class="- topic/image image" href="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/start_button_1.JPG" id="unique_8_Connect_42_image_wm2_41s_wtb" nd:nd-id="image_wm2_41s_wtb" placement="inline" src="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/Images/Section%204/start_button_1.JPG"/> at the top of the screen to reboot your
+                            virtual machine.</span>
+                    </li>
+                </ol>
+            </li></ol></section>
+        <section class="- topic/section task/result section result" id="unique_8_Connect_42_result_xd5_1sf_5tb" nd:nd-id="result_xd5_1sf_5tb">VirtualBox Guest Editions is now fully installed. Your
+            virtual machine's display window should now be able to produce a proper full screen
+            display to match your host machine's display.</section>
+    </div>
+</article></div></div></div></div></body></html>

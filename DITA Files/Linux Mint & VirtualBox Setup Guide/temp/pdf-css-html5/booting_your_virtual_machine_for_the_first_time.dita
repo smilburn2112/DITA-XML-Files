@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /home/stephen/repos/portfolio/DITA Files/Linux Mint & VirtualBox Setup Guide/temp/pdf-css-html5?><?workdir-uri file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&%20VirtualBox%20Setup%20Guide/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="booting_your_virtual_machine_for_the_first_time" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="task:1;3:60" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="title:1;4:12">Booting Your Virtual Machine for the First Time</title>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="taskbody:1;5:15">
+        <context class="- topic/section task/context " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="context:1;6:18">This section will guide you through the process of booting your virtual machine for
+            the first time using Oracle VM VirtualBox.</context>
+        <steps class="- topic/ol task/steps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="steps:1;8:16">
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="step:1;9:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="cmd:1;10:22">From the VirtualBox main screen, click Linux Mint on the left-hand side to
+                    ensure you have the correct operating system selected. </cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="step:2;13:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="cmd:2;14:22">Click the <image href="Images/Section%204/start_button_1.JPG" id="image_mrv_c3d_wtb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="image:1;15:49"/> button near the top of the screen.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="step:3;17:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="cmd:3;18:22">A menu will appear prompting you to select a start-up disk. Using the dropdown
+                    menu, choose the Linux Mint .ISO file and click start.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="info:1;20:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="p:1;21:24"><image href="Images/Section%204/boot_alt.JPG" width="620" height="440" id="image_m3p_v3d_wtb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="image:2;22:53"/></p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="step:4;25:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="cmd:4;26:22">The automatic boot sequence will now begin. This may take a minute depending on
+                    your system specifications. During the process, you will be presented with the
+                    menu shown in the image below. Ensure that the "Start Linux Mint 20.3 Cinnamon
+                    64-bit" option is selected and push the Enter key to proceed. </cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="info:2;30:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="p:2;31:24"><image href="Images/Section%204/boot_vm_1.JPG" width="620" height="440" id="image_ntd_wqd_wtb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="image:3;32:53"/></p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="step:5;35:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="cmd:5;36:22">Once the boot sequence has finished, you will be brought to the desktop
+                    environment for Linux Mint.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="info:3;38:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="p:3;39:24">
+                        <fig id="fig_it4_yqd_wtb" class="- topic/fig " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="fig:1;40:51">
+                            <title class="- topic/title " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="title:2;41:36">Linux Mint Desktop</title>
+                            <image href="Images/Section%204/boot_vm_2.JPG" width="620" height="440" id="image_jt4_yqd_wtb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="image:4;43:57"/>
+                        </fig>
+                    </p>
+                </info>
+            </step>
+        </steps>
+        <result id="result_upz_1dx_ttb" class="- topic/section task/result " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/booting_your_virtual_machine_for_the_first_time.dita" xtrc="result:1;49:41">Your virtual machine has now been booted. You are ready to
+            install Linux Mint as outlined in the next section.  </result>
+    </taskbody>
+</task>

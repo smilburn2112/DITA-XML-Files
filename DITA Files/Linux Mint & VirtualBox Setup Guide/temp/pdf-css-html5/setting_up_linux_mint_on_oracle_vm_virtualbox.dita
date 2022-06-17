@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /home/stephen/repos/portfolio/DITA Files/Linux Mint & VirtualBox Setup Guide/temp/pdf-css-html5?><?workdir-uri file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&%20VirtualBox%20Setup%20Guide/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="setting_up_linux_mint_on_oracle_vm_virtualbox" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="task:1;3:58" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="title:1;4:12">Creating a New Virtual Machine with VirtualBox</title>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="taskbody:1;5:15">
+        <context class="- topic/section task/context " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="context:1;6:18">This task will guide you through the process of setting up a new virtual machine
+            using VirtualBox. </context>
+        <steps class="- topic/ol task/steps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="steps:1;8:16">
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="step:1;9:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:1;10:22">Open the VirtualBox application on your host machine.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="step:2;12:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:2;13:22">From the main menu, click the <image href="Images/Section%202/new_button_1.JPG" id="image_vsb_yjl_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="image:1;14:49"/> button at the top of the screen.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="info:1;15:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="p:1;16:24">
+                        <fig id="fig_eg4_sys_5tb" class="- topic/fig " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="fig:1;17:51">
+                            <title class="- topic/title " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="title:2;18:36">VirtualBox Main Menu</title>
+                            <image href="Images/Section%202/new_vm_1.JPG" width="640" height="480" id="image_fg4_sys_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="image:2;20:57"/>
+                        </fig>
+                    </p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="step:3;25:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:3;26:22">You will be prompted to select a name, destination folder, operating system
+                    type, associated version for the new virtual machine.</cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substeps:1;28:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:1;29:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:4;30:30">Enter Linux Mint in the Name field.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:2;32:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:5;33:30">The Machine Folder field can be left at its default value. If
+                            preferred, you can select an alternative directory on your local machine
+                            as the destination folder. </cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:3;37:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:6;38:30">By entering Linux Mint in the Name field, the Type field will already
+                            be populated with Linux as the default value. If it is not, select Linux
+                            from the drop-down list. </cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:4;42:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:7;43:30"> For the Version field, select Ubuntu (64-bit) from the drop-down
+                            list.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:5;46:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:8;47:30">Click Next.</cmd>
+                        <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="info:2;48:31">
+                            <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="p:2;49:32"><image href="Images/Section%202/new_vm_2.JPG" width="412" height="390" id="image_ugm_5ys_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="image:3;50:74"/></p>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="step:4;55:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:9;56:22">You will now be asked to select the amount of memory (RAM) to be allocated to
+                    the vritual machine.</cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substeps:2;58:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:6;59:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:10;60:30">Select at least 2 gigabytes of memory using the slider. I recommend
+                            moving it towards the far end of the green portion of the slider.
+                            However, you will want to avoid moving the slider into the orange/red
+                            zone in order to prevent performance issues on your host machine. The
+                            actual amount available will be dependent on your host machine's system
+                            specifications. Click Next when you are done.</cmd>
+                        <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="info:3;66:31">
+                            <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="p:3;67:32"><image href="Images/Section%202/new_vm_3.JPG" width="412" height="390" id="image_vdc_wys_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="image:4;68:74"/></p>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="step:5;73:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:11;74:22">On the following screen, you will be asked to create and configure the new
+                    virtual hard disk file.</cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substeps:3;76:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:7;77:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:12;78:30">Leave the "Create a new virtual hard disk" option selected and click
+                            Create.</cmd>
+                        <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="info:4;80:31">
+                            <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="p:4;81:32"><image href="Images/Section%202/new_vm_4.JPG" width="412" height="390" id="image_anc_xys_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="image:5;82:74"/></p>
+                        </info>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:8;85:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:13;86:30">You will be prompted to select a hard disk file type. Leave the default
+                            value of VDI (VirtualBox Disk Image) selected and click Next.</cmd>
+                        <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="info:5;88:31">
+                            <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="p:5;89:32"><image href="Images/Section%202/new_vm_6.JPG" width="412" height="390" id="image_cbp_yys_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="image:6;90:74"/></p>
+                        </info>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:9;93:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:14;94:30"> Read the descriptions and make your selection based on your
+                            preferences. For the purposes of this guide, we recommend selecting the
+                            default value of Dynamically Allocated. </cmd>
+                        <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="info:6;97:31">
+                            <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="p:6;98:32"><image href="Images/Section%202/new_vm_7.JPG" width="412" height="390" id="image_uzb_zys_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="image:7;99:74"/></p>
+                        </info>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:10;102:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:15;103:30">Click Next when you are done.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="step:6;107:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:16;108:22">Choose the directory on your PC where the virtual hard disk file will be stored
+                    along with the size of the virtual hard disk. </cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substeps:4;110:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:11;111:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:17;112:30">Click the folder icon to select a location.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:12;114:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:18;115:30">Using the slider,  allocate at least 32 gigabytes of disk space to
+                            ensure that you will have enough available to run the operating system
+                            and store your data. </cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="substep:13;119:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="cmd:19;120:30">Click Create when you are done.</cmd>
+                        <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="info:7;121:31">
+                            <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="p:7;122:32"><image href="Images/Section%202/new_vm_8.JPG" width="412" height="390" id="image_msh_3ly_wtb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="image:8;123:74"/></p>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+        <result id="result_ot1_gll_stb" class="- topic/section task/result " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/setting_up_linux_mint_on_oracle_vm_virtualbox.dita" xtrc="result:1;129:41">Your new virtual hard disk has been created and you are now
+            ready to proceed  to the next section of the guide. </result>
+    </taskbody>
+</task>

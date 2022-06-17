@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /home/stephen/repos/portfolio/DITA Files/Linux Mint & VirtualBox Setup Guide/temp/pdf-css-html5?><?workdir-uri file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&%20VirtualBox%20Setup%20Guide/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="configuring_your_virtal_machine" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="task:1;3:44" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="title:1;4:12">Configuring Your Virtual Machine</title>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="taskbody:1;5:15">
+        <context class="- topic/section task/context " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="context:1;6:18">In this section, we will configure the settings of your virtual machine before
+            booting it up for the first time.</context>
+        <steps class="- topic/ol task/steps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="steps:1;8:16">
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="step:1;9:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:1;10:22">Click the <image href="Images/Section%203/settings_button_1.JPG" id="image_eyw_31t_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="image:1;11:49"/> icon at the top of the screen to open the Settings
+                    menu.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="step:2;14:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:2;15:22">Select the System menu from the list on the left.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="info:1;16:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="p:1;17:24"><image href="Images/Section%203/config_vm_1.JPG" width="640" height="480" id="image_vgj_v2t_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="image:2;18:53"/></p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="step:3;21:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:3;22:22">This will open directly to the Motherboard tab in the System menu. Check the
+                    box for "Enable EFI  (special OSes only)" under the Extended Features section
+                    towards the bottom of the menu. </cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="info:2;25:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="p:2;26:24"><image href="Images/Section%203/config_vm_2.JPG" id="image_ijp_b2t_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="image:3;26:97"/></p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="step:4;29:19">
+                <note id="note_qp2_hdt_5tb" class="- topic/note " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="note:1;30:45"> Most newer computers come with an EFI BIOS, this will
+                    allow us to emulate running a new computer</note>
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:4;32:22">Click the Processor tab on the System menu.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="step:5;34:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:5;35:22">Move the processor slider to the right to allocate 2 CPU cores for improved
+                    performance. </cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="info:3;37:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="p:3;38:24"><image href="Images/Section%203/config_vm_3.JPG" width="640" height="480" id="image_mxr_t2t_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="image:4;39:53"/></p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="step:6;42:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:6;43:22">Select the Storage menu from the list on the left.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="step:7;45:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:7;46:22">Select the <image href="Images/Section%203/disk_button_1.JPG" id="image_fcr_2tc_wtb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="image:5;47:49"/> icon labeled "Empty" under Controller: IDE.</cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="info:4;48:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="p:4;49:24"><image href="Images/Section%203/config_vm_4.JPG" width="640" height="480" id="image_wlp_gft_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="image:6;50:53"/></p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="step:8;53:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:8;54:22">Insert the Linux Mint disk image downloaded in the previous sections by
+                    clicking the <image href="Images/Section%203/disk_button_1.JPG" id="image_iry_rft_5tb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="image:7;56:49"/> icon under Attributes &gt; Optical Drive on the right
+                    hand side of the menu.</cmd>
+                <substeps class="- topic/ol task/substeps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="substeps:1;58:27">
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="substep:1;59:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:9;60:30">Select "Choose a disk file" from the dropdown menu and specify the
+                            location where you saved the Linux Mint disk image file. </cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="substep:2;63:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:10;64:30">Click Open when you have specified the location</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="substep:3;66:30">
+                        <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="cmd:11;67:30">Click OK back on the Storage tab to close Settings and return to the
+                            main screen.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+        <result id="result_iyz_hrl_stb" class="- topic/section task/result " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/configuring_your_virtal_machine.dita" xtrc="result:1;73:41">You are now ready to boot your virtual machine. </result>
+    </taskbody>
+</task>

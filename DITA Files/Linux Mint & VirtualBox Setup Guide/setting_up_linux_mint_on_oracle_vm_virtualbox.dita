@@ -46,8 +46,8 @@
                     <substep>
                         <cmd>Click Next.</cmd>
                         <info>
-                            <p><image href="Images/Section%202/new_vm_2.JPG" width="320"
-                                    height="320" id="image_ugm_5ys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_2.JPG" width="412"
+                                    height="390" id="image_ugm_5ys_5tb"/></p>
                         </info>
                     </substep>
                 </substeps>
@@ -64,8 +64,8 @@
                             actual amount available will be dependent on your host machine's system
                             specifications. Click Next when you are done.</cmd>
                         <info>
-                            <p><image href="Images/Section%202/new_vm_3.JPG" width="320"
-                                    height="320" id="image_vdc_wys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_3.JPG" width="412"
+                                    height="390" id="image_vdc_wys_5tb"/></p>
                         </info>
                     </substep>
                 </substeps>
@@ -78,16 +78,16 @@
                         <cmd>Leave the "Create a new virtual hard disk" option selected and click
                             Create.</cmd>
                         <info>
-                            <p><image href="Images/Section%202/new_vm_4.JPG" width="320"
-                                    height="320" id="image_anc_xys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_4.JPG" width="412"
+                                    height="390" id="image_anc_xys_5tb"/></p>
                         </info>
                     </substep>
                     <substep>
                         <cmd>You will be prompted to select a hard disk file type. Leave the default
                             value of VDI (VirtualBox Disk Image) selected and click Next.</cmd>
                         <info>
-                            <p><image href="Images/Section%202/new_vm_6.JPG" width="320"
-                                    height="320" id="image_cbp_yys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_6.JPG" width="412"
+                                    height="390" id="image_cbp_yys_5tb"/></p>
                         </info>
                     </substep>
                     <substep>
@@ -95,8 +95,8 @@
                             preferences. For the purposes of this guide, we recommend selecting the
                             default value of Dynamically Allocated. </cmd>
                         <info>
-                            <p><image href="Images/Section%202/new_vm_7.JPG" width="320"
-                                    height="320" id="image_uzb_zys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_7.JPG" width="412"
+                                    height="390" id="image_uzb_zys_5tb"/></p>
                         </info>
                     </substep>
                     <substep>
@@ -119,8 +119,8 @@
                     <substep>
                         <cmd>Click Create when you are done.</cmd>
                         <info>
-                            <p><image href="Images/Section 2/new_vm_8.JPG" width="320" height="320"
-                                    id="image_e1x_zys_5tb"/></p>
+                            <p><image href="Images/Section%202/new_vm_8.JPG" width="412"
+                                    height="390" id="image_msh_3ly_wtb"/></p>
                         </info>
                     </substep>
                 </substeps>

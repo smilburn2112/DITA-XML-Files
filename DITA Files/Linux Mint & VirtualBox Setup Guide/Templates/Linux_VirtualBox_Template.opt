@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<publishing-template>
+    <name>Linux_VirtualBox_Template</name>
+    <description></description>
+    <webhelp>
+        <preview-image file="hightech-tree.png"/>
+        <html-page-layout-files>
+            <page-layout-file page="search" file="page-templates/wt_search.html"/>
+            <page-layout-file page="topic" file="page-templates/wt_topic.html"/>
+            <page-layout-file page="main" file="page-templates/wt_index.html"/>
+            <page-layout-file page="index-terms" file="page-templates/wt_terms.html"/>
+        </html-page-layout-files>
+        <parameters>
+            <parameter name="webhelp.show.main.page.tiles" value="no"/>
+            <parameter name="webhelp.show.main.page.toc" value="yes"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="args.figurelink.style" value="TITLE"/>
+            <parameter name="args.tablelink.style" value="TITLE"/>
+            <parameter name="force-unique" value="true"/>
+        </parameters>
+        <resources>
+            <css file="hightech.css"/>
+            <css file="notes.css"/>
+            <fileset>
+                <include name="resources/**/*"/>
+                <exclude name="resources/**/*.svn"/>
+                <exclude name="resources/**/*.git"/>
+            </fileset>
+        </resources>
+        <online-preview-url>https://www.oxygenxml.com/samples/DITA-WebHelp-Responsive/tree/hightech/</online-preview-url>
+        <tags>
+            <tag type="layout">tree</tag>
+            <tag type="color">blue</tag>
+            <tag type="color">dark</tag>
+        </tags>
+    </webhelp>
+</publishing-template>

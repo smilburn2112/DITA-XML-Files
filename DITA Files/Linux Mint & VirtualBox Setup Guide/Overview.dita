@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_wxh_qsz_rtb">
-    <title>Overview: Linux Mint, Oracle VM VirtualBox v. 6.1.34</title>
-    <shortdesc>A brief overview of the Linux Mint OS, Oracle VM VirtualBox, and virtual
-        machines.</shortdesc>
+    <title>Overview: Linux Mint and Oracle VM VirtualBox v. 6.1.34</title>
     <conbody>
-        <p>Linux Mint is an Ubuntu based open source operating system that comes fully equipped with
-            out of the box capabilities for multi-media support, gaming, graphic design, web
+        <p>Linux Mint is a free of cost Ubuntu based operating system that comes fully equipped with
+            out of the box capabilities for multimedia support, gaming, graphic design, web
             browsing, text editing, and more. It is a widely used alternative to Microsoft Windows
-            and Mac OS. </p>
-        <p>Oracle VM VirtualBox is an open source application used for the virtualization of
-            computer operating systems. It allows users to run multiple operating systems such as
-            Microsoft Windows, Mac OS X, and Linux in a virtualized environment.</p>
-        <p>A virtual machine is platform that runs an emulated computer that utilizes the hardware
-            and resources of your main computer in a virtual environment</p>
+            and Mac OS X. Linux Mint provides a safe and reliable environment for all of your OS
+            needs with minimal maintenance requirements.  </p>
+        <p>A virtual machine is a platform that runs an emulated computer that utilizes the hardware
+            and resources of your main computer in a virtual environment. One of the more popular
+            virtualization platforms today is Oracle VM VirtualBox, a type-2 hypervisor developed by
+            Oracle Corporation.  It allows users to run multiple operating systems like Microsoft
+            Windows, Mac OS X, and various Linux distributions in a virtualized environment using a
+            single physical machine. The benefits of virtualization are immense. Segmenting a
+            physical device into multiple virtual machines can lead to the faster provisioning of
+            resources, reduced IT costs, improved security, and greater resiliency in recovery
+            situations. </p>
         <p>This guide will assist you with downloading and installing all of the necessary
             components to run Linux Mint in a virtualized environment using Oracle VM VirtualBox v.
             6.1.34 for Windows. It is meant to be a supplement or alternative for those who prefer

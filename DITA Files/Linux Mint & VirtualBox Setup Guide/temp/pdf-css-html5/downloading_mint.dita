@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /home/stephen/repos/portfolio/DITA Files/Linux Mint & VirtualBox Setup Guide/temp/pdf-css-html5?><?workdir-uri file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&%20VirtualBox%20Setup%20Guide/temp/pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="downloading_mint" ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" class="- topic/topic task/task " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="task:1;3:29" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="title:1;4:12">Downloading the Linux Mint .ISO file</title>
+    <taskbody class="- topic/body task/taskbody " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="taskbody:1;5:15">
+        <context class="- topic/section task/context " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="context:1;6:18">This section will cover how to download Linux Mint.</context>
+        <steps class="- topic/ol task/steps " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="steps:1;7:16">
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="step:1;8:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="cmd:1;9:22">Open up your preferred web browser (e.g. Chrome, Firefox, Microsoft Edge) and
+                    navigate to: <xref href="https://www.linuxmint.com/download.php" format="html" scope="external" class="- topic/xref " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="xref:1;11:43"/></cmd>
+                <info class="- topic/itemgroup task/info " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="info:1;12:23">
+                    <p class="- topic/p " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="p:1;13:24"><image href="Images/DL%20Instructions/dl_mint_1.jpg" width="640" height="480" id="image_qty_vjz_wtb" placement="inline" class="- topic/image " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="image:1;14:53"/></p>
+                </info>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="step:2;17:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="cmd:2;18:22">Select your preferred edition of Linux Mint. We recommend Cinnamon Edition for
+                    new users since it is the most commonly used version. Once you have chosen your
+                    preferred version, click the "Download" button under the version heading to
+                    proceed to the next page.</cmd>
+            </step>
+            <step class="- topic/li task/step " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="step:3;23:19">
+                <cmd class="- topic/ph task/cmd " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="cmd:3;24:22">Under the "Download mirrors" heading, select a mirror closest to your
+                    geographic location to download the Linux Mint disk image file from. <b class="+ topic/ph hi-d/b " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="b:1;25:93">Note the
+                        directory where you have saved this file - you will need to know its
+                        location later in the installation process.</b></cmd>
+            </step>
+        </steps>
+        <result id="result_czl_v5k_5tb" class="- topic/section task/result " xtrf="file:/home/stephen/repos/portfolio/DITA%20Files/Linux%20Mint%20&amp;%20VirtualBox%20Setup%20Guide/downloading_mint.dita" xtrc="result:1;30:41">The Linux Mint .ISO file has now been successfully
+            downloaded. Please proceed to the next section.</result>
+    </taskbody>
+</task>

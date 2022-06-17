@@ -6,9 +6,13 @@
         <context>This section will cover how to download Linux Mint.</context>
         <steps>
             <step>
-                <cmd>Open up your preferred web browser (e.g. Chrome, Firefox,  Microsoft Edge) and
+                <cmd>Open up your preferred web browser (e.g. Chrome, Firefox, Microsoft Edge) and
                     navigate to: <xref href="https://www.linuxmint.com/download.php" format="html"
                         scope="external"/></cmd>
+                <info>
+                    <p><image href="Images/DL%20Instructions/dl_mint_1.jpg" width="640" height="480"
+                            id="image_qty_vjz_wtb"/></p>
+                </info>
             </step>
             <step>
                 <cmd>Select your preferred edition of Linux Mint. We recommend Cinnamon Edition for
@@ -18,12 +22,12 @@
             </step>
             <step>
                 <cmd>Under the "Download mirrors" heading, select a mirror closest to your
-                    geographic location to download the Linux Mint disk image file from. Note the
-                    directory where you have saved this file - you will need to know its location
-                    later in the installation process.</cmd>
+                    geographic location to download the Linux Mint disk image file from. <b>Note the
+                        directory where you have saved this file - you will need to know its
+                        location later in the installation process.</b></cmd>
             </step>
         </steps>
         <result id="result_czl_v5k_5tb">The Linux Mint .ISO file has now been successfully
-            downloaded. </result>
+            downloaded. Please proceed to the next section.</result>
     </taskbody>
 </task>
